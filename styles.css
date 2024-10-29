@@ -1,9 +1,65 @@
-#global_insta {
+* {
+    font-family: Lato;
+}
+
+body{
+    background: #EAEAEA;
+}
+
+h1 {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    
+}
+
+#body_insta {
     width: 100%;
     max-width: 500px;
     margin: 0 auto;
 }
 
+#header_insta {
+    background: white;
+    overflow: auto;
+    width: 100%;
+    margin: 10px 0;
+    padding: 20px 0;
+}
+
+.header_photo {
+    background: white;
+    overflow: auto;
+}
+
+.photo_paragraph {
+    background: white;
+    overflow: auto;
+    margin: 0 0 10px 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+p{
+    margin: 10px;
+}
+
+.title_photo {
+    float: left;
+}
 .date_photo {
-    
+    float: right;
+    color: gray;
+    margin-right: 10px;
+    font-size: medium;
+}
+
+img {
+    width: 500px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 17px;
+    margin-left: 10px;
 }
